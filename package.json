@@ -21,6 +21,10 @@
         "publish": "npx vsce publish"
     },
     "publisher": "rushabhbadani",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/r-badani/cxe-ui.git"
+    },
     "extensionPack": [
         "johnpapa.Angular2",
         "Angular.ng-template",
