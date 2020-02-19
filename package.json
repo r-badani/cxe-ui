@@ -1,0 +1,47 @@
+{
+    "name": "cxe-ui",
+    "displayName": "CXE-UI",
+    "description": "This extension pack for VS code adds extensions that are used by the Cisco UI Framework team",
+    "version": "1.0.0",
+    "icon": "images/cxe-ui.png",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "keywords": [
+        "Cisco",
+        "CX-portal",
+        "Customer portal",
+        "CX Engineering"
+    ],
+    "scripts": {
+        "package": "npx vsce package",
+        "publish": "npx vsce publish"
+    },
+    "publisher": "rushabhbadani",
+    "extensionPack": [
+        "johnpapa.Angular2",
+        "Angular.ng-template",
+        "dbaeumer.vscode-eslint",
+        "msjsdiag.debugger-for-chrome",
+        "johnpapa.vscode-peacock",
+        "pkief.material-icon-theme",
+        "nrwl.angular-console",
+        "eamodio.gitlens",
+        "fatihacet.gitlab-workflow",
+        "CoenraadS.bracket-pair-colorizer",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        "streetsidesoftware.code-spell-checker",
+        "Orta.vscode-jest",
+        "firsttris.vscode-jest-runner",
+        "magnobiet.sass-extension-pack",
+        "naumovs.color-highlight",
+        "aaron-bond.better-comments",
+        "alefragnani.Bookmarks",
+        "pnp.polacode",
+        "wix.vscode-import-cost"
+    ]
+}
